@@ -1,0 +1,56 @@
+=========================================================
+README FILE
+Experiment No. 5(b)
+Single Source Shortest Path using Dijkstra Algorithm
+=========================================================
+
+AIM:
+-----
+To find the shortest path from a given source vertex to all other
+vertices using Dijkstra’s Algorithm.
+
+DESCRIPTION:
+------------
+Dijkstra’s algorithm is a greedy algorithm used to find the shortest
+path from a single source vertex to all other vertices in a weighted
+graph with non-negative edge weights.
+
+The program uses an adjacency matrix representation of the graph
+and calculates the minimum distance from the source to all vertices.
+
+INPUT:
+------
+1. Number of vertices
+2. Adjacency matrix of the graph
+3. Source vertex
+
+OUTPUT:
+-------
+Shortest distance from the source vertex to all other vertices.
+
+ALGORITHM:
+----------
+1. Read the number of vertices.
+2. Read the adjacency matrix.
+3. Initialize distance array and visited array.
+4. Set distance of source vertex to zero.
+5. Select the unvisited vertex with minimum distance.
+6. Update distances of adjacent vertices.
+7. Repeat until all vertices are visited.
+8. Display shortest distances.
+
+LIMITATIONS:
+------------
+Dijkstra’s algorithm does not work with graphs having negative
+edge weights.
+
+APPLICATION:
+------------
+Used in GPS navigation systems, routing protocols, and network
+optimization problems.
+
+RESULT:
+-------
+The shortest paths from the source vertex are successfully computed
+using Dijkstra’s Algorithm.
+=========================================================

@@ -1,0 +1,48 @@
+=========================================================
+README FILE
+Experiment No. 5(c)
+All Pair Shortest Path using Floyd–Warshall Algorithm
+=========================================================
+
+AIM:
+-----
+To find the shortest paths between all pairs of vertices using
+the Floyd–Warshall Algorithm.
+
+DESCRIPTION:
+------------
+Floyd–Warshall is a dynamic programming algorithm that computes
+shortest paths between all pairs of vertices in a weighted graph.
+It can handle negative edge weights but not negative cycles.
+
+The algorithm iteratively updates the distance matrix by considering
+each vertex as an intermediate node.
+
+INPUT:
+------
+1. Number of vertices
+2. Adjacency matrix of the graph
+
+OUTPUT:
+-------
+Matrix showing shortest distances between every pair of vertices.
+
+ALGORITHM:
+----------
+1. Read number of vertices.
+2. Read adjacency matrix.
+3. Replace zero weights with infinity (except diagonal).
+4. For each vertex k:
+   a. Update distance[i][j] using vertex k as intermediate.
+5. Display the final distance matrix.
+
+APPLICATION:
+------------
+Used in traffic networks, routing algorithms, and graph analysis
+applications requiring all-pairs shortest paths.
+
+RESULT:
+-------
+The shortest distances between all pairs of vertices are successfully
+computed using Floyd–Warshall Algorithm.
+=========================================================

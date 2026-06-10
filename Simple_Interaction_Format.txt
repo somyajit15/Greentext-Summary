@@ -1,0 +1,54 @@
+=========================================================
+README FILE
+Experiment No. 5(a)
+Graph Generation using Simple Interaction Format (SIF)
+=========================================================
+
+AIM:
+-----
+To generate and represent a graph using Simple Interaction Format (SIF)
+and store it in the form of an adjacency matrix.
+
+DESCRIPTION:
+------------
+Simple Interaction Format (SIF) is a simple text-based format used to
+describe graphs. Each line represents an edge between two vertices
+along with the weight of the edge.
+
+FORMAT:
+-------
+source_vertex  destination_vertex  weight
+
+The program reads the number of vertices and edges from the user,
+accepts edges in SIF format, and generates the adjacency matrix of
+the graph.
+
+INPUT:
+------
+1. Number of vertices
+2. Number of edges
+3. Edge details in SIF format (u v w)
+
+OUTPUT:
+-------
+Adjacency matrix representing the graph.
+
+ALGORITHM:
+----------
+1. Read number of vertices.
+2. Initialize adjacency matrix with zero values.
+3. Read number of edges.
+4. For each edge, read source, destination, and weight.
+5. Update adjacency matrix accordingly.
+6. Display the adjacency matrix.
+
+APPLICATION:
+------------
+Graph generation using SIF is useful in network analysis,
+pathfinding algorithms, and graph-based applications.
+
+RESULT:
+-------
+The graph is successfully generated and displayed using the
+Simple Interaction Format.
+=========================================================
